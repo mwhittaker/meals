@@ -325,7 +325,7 @@ function createCards(meals, planned_meals) {
         //   |     |                  /
         //   +-----+                 '
         //
-        var cards_per_group = 1;
+        var cards_per_group = 2;
         var number_of_groups = Math.ceil(week_meals.length / cards_per_group);
         var groups = [];
         for (j = 0; j < number_of_groups; j++) {
