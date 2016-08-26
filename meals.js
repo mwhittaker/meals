@@ -405,13 +405,13 @@ function createCards(meals, planned_meals) {
                 }, 'Source'));
             }
         }
-    }
 
-    var cardDeckWrapper = createElement("div", {
-        'class': 'card-deck-wrapper'
-    });
-    cards.appendChild(cardDeckWrapper);
-    for (j = 0; j < groups.length; j++) {
-        cardDeckWrapper.appendChild(groups[j]);
+        var cardDeckWrapper = createElement("div", {
+            'class': 'card-deck-wrapper'
+        });
+        cards.appendChild(cardDeckWrapper);
+        for (j = 0; j < groups.length; j++) {
+            cardDeckWrapper.appendChild(groups[j]);
+        }
     }
 }
